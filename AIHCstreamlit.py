@@ -9,9 +9,7 @@ parkinsons_model = pickle.load(open('parkinsons_model.sav', 'rb'))
 
 
 
-# Parkinson's Prediction Page
-if (selected == "Parkinsons Prediction"):
-    
+
     # page title
     st.title("Parkinson's Disease Prediction using ML")
     
